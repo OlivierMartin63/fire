@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(220, 219, 219);
+}
+
+#container{
+    width: 75vw;
+    height: 75vw;
+    display: grid;
+    gap: 2px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#container > div {
+    border-radius: 10px;
+}
+
+.fire {
+    background-color: rgb(193, 64, 64);
+}
+
+.land {
+    background-color: rgb(29, 160, 29);
+}
+
+.cinder {
+    background-color: grey;
+}
+
+#next {
+    margin-top: 20px;
+}
